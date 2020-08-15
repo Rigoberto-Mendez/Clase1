@@ -11,12 +11,21 @@ package clase1;
  */
 public class Clase1 {
 
-    /**
-     * @param args the command line arguments
-     */
+   
+    
+    
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("HOLA MUNDO");
+//        funcionesMatematicasSuma Funciones = new funcionesMatematicasSuma();
+//        System.out.println(Funciones.divicion());  
+
+      coche miCarro = new coche ("NISSAN",2020,"AZUL");
+      coche tuCarro = new coche ("HONDA",2020,"BLANCO");
+      coche CarroConMasParametros = new coche ("HONDA",2020,"BLANCO",4);
+      
+          System.out.println(tuCarro.toString());
+          System.out.println(miCarro.toString());
+          System.out.println(CarroConMasParametros.toString());
+      
     }
     
 }
